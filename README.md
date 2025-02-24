@@ -13,22 +13,7 @@ The project uses ECMWF model forecasts, station data from Austrian meteorology s
 * Austrian Station Data: [Geosphere Data Hub](https://data.hub.geosphere.at/dataset/klima-v2-1d)
 
 ## Workflow
-
-1. Data Preprocessing (stored in src/data_preprocessing.py)
-
-    - Cleaning raw ECMWF and station data.
-
-    - Feature engineering.
-
-2. Model Training (src/model_training.py)
-
-    - Uses LightGBM for forecasting.
-
-3. Model Evaluation (src/model_evaluation.py)
-
-    - Metrics: RMSE, MAE, Bias.
-
-    - Generates forecast vs. ground truth plots.
+![](workflow.png)
   
 
 ## Results & Performance
